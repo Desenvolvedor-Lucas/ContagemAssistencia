@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iIdm6Q8v7iTbUHz2aNXWMFkW8ZARhvRY0yi/nRwZAcMSBzPwc5X/JeF73mLWzpqdeFTIBT5Hmp2LziV0pzXhIA==",
+  "success": true,
+  "projectFilePath": "E:\\Dev Lucas\\Mobile\\Xamarin\\ContagemAssistencia\\ContagemAssistencia\\ContagemAssistencia.iOS\\ContagemAssistencia.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\marin\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\marin\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+  ],
+  "logs": []
+}

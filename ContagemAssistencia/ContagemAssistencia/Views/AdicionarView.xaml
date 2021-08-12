@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Translate="clr-namespace:ContagemAssistencia.ABC_Translate"
+             xmlns:MyColor="clr-namespace:ContagemAssistencia.ColorsTheme"
+             x:Class="ContagemAssistencia.Views.AdicionarView"
+             Title="{x:Static Translate:AppResources.TitleAdd}"
+             BackgroundColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}">
+
+    <StackLayout Margin="25">
+        
+        <Frame BorderColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}"
+               BackgroundColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}"
+               VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+               CornerRadius="10" IsVisible="true" HasShadow="false" Margin="20" >
+
+            <StackLayout>
+
+                <Frame BorderColor="{x:Static MyColor:MinhasCores.CorTema_B}" 
+                       BackgroundColor="{x:Static MyColor:MinhasCores.FundoCorTema_B}"
+                       VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+                       CornerRadius="10" IsVisible="true" HasShadow="True">
+                    
+                    <StackLayout>
+                        
+                        <Label Text="{x:Static Translate:AppResources.Name}" 
+                               TextColor="{x:Static MyColor:MinhasCores.LetraCorDestaque}" 
+                               VerticalOptions="EndAndExpand" HorizontalOptions="Center"
+                               FontSize="Title" FontAttributes="Bold"/>
+
+                        <Entry Text="{Binding Nome}" 
+                               Placeholder="{x:Static Translate:AppResources.PHname}" 
+                               TextColor="{x:Static MyColor:MinhasCores.CorTema_B}" 
+                               PlaceholderColor="{x:Static MyColor:MinhasCores.LetraCorFundo}"
+                               VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+
+                    </StackLayout>
+                    
+                </Frame>
+
+                <Frame BorderColor="{x:Static MyColor:MinhasCores.CorTema_B}" 
+                       BackgroundColor="{x:Static MyColor:MinhasCores.FundoCorTema_B}"
+                       VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+                       CornerRadius="10" IsVisible="true" HasShadow="True">
+                    
+                <StackLayout>
+                        
+                        <Label Text="{x:Static Translate:AppResources.Number}" 
+                               TextColor="{x:Static MyColor:MinhasCores.LetraCorDestaque}" 
+                               VerticalOptions="EndAndExpand" HorizontalOptions="Center"
+                               FontSize="Title" FontAttributes="Bold"/>
+
+                        <Entry Text="{Binding Numero}" 
+                               Placeholder="{x:Static Translate:AppResources.PHnumber}"
+                               TextColor="{x:Static MyColor:MinhasCores.CorTema_B}" 
+                               PlaceholderColor="{x:Static MyColor:MinhasCores.LetraCorFundo}"
+                               VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+                        
+                    </StackLayout>
+                    
+                </Frame>
+
+            </StackLayout>
+            
+        </Frame>
+        
+        <StackLayout VerticalOptions="End" HorizontalOptions="Center" Margin="15">
+            
+            <Button Text="{x:Static Translate:AppResources.BtnAdd}"
+                    TextColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}" 
+                    BackgroundColor="{x:Static MyColor:MinhasCores.CorTema_B}"
+                    Command="{Binding NavegaEAdicionaCommand}"
+                     FontAttributes="Italic" FontSize="20" HorizontalOptions="Center" CornerRadius="10"/>
+            
+            <Label Text="" FontSize="15"/>
+            
+        </StackLayout>
+        
+    </StackLayout>
+    
+</ContentPage>
