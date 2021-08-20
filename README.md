@@ -5,7 +5,6 @@ English -
  Now available in English and Portuguese on Google Play.
 
 Português -
-
  App que ajuda a realizar uma contagem de assistência de modo simples a prático, assim fazendo um "Relatório de presenças".
  Já disponível em Inglês e Português na Google Play. 
 
