@@ -15,6 +15,7 @@ namespace ContagemAssistencia.ViewModels
         public string CompartilharTextofomartado;
         public List<string> ListaAssistenciaFormatada = new List<string>();
 
+
         //Propriedades
         public string VisualizaData { get; set; }
         public Label VisualizaTotal { get; set; }
@@ -23,6 +24,8 @@ namespace ContagemAssistencia.ViewModels
 
         //Propriedade de Comandos
         public ICommand CompartilharCommand { get; set; }
+
+
         //Construdor
         public VisualizarViewModel(Label total, ObservableCollection<UsuarioAssistencia> lista)
         {

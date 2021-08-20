@@ -16,17 +16,15 @@ namespace ContagemAssistencia.Droid
     [Activity(Theme = "@style/Theme.Splash",
         MainLauncher = true,
         NoHistory = true)]
+
     public class SplashActivity : Activity
     {
-        static readonly string TAG = "X:" + typeof(SplashActivity).Name;
-
         public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)
         {
             base.OnCreate(savedInstanceState, persistentState);
-            Log.Debug(TAG, "SplashActivity.OnCreate");
         }
 
-        // Launches the startup task
+        // Lança a tarefa de inicialização
         protected override void OnResume()
         {
             base.OnResume();
@@ -34,20 +32,11 @@ namespace ContagemAssistencia.Droid
             startupWork.Start();
         }
 
-        // Simulates background work that happens behind the splash screen
-        async void SimulateStartup()
+        // Simula o trabalho de fundo que acontece atrás da tela de respingo
+        async void SimulateStartup()  //Simula inicialização
         {
-            Log.Debug(TAG, "Performing some startup work that takes a bit of time.");
-            await Task.Delay(1000); //1s // Simulate a bit of startup work.
-            Log.Debug(TAG, "Startup work is finished - starting MainActivity.");
+            await Task.Delay(0); //1s = 1000 Simule um pouco do trabalho de inicialização.
             StartActivity(new Intent(Application.Context, typeof(MainActivity)));
         }
-        //protected override void OnCreate(Bundle savedInstanceState)
-        //{
-        //    base.OnCreate(savedInstanceState);
-
-        //    // Create your application here
-        //    StartActivity(typeof(MainActivity));
-        //}
     }
 }

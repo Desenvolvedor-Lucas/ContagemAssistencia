@@ -6,6 +6,8 @@ Assets\SmallTile.scale-100.png
 Assets\SmallTile.scale-200.png
 Assets\SmallTile.scale-400.png
 Assets\SplashScreen.scale-100.png
+Assets\SplashScreen.scale-125.png
+Assets\SplashScreen.scale-150.png
 Assets\SplashScreen.scale-200.png
 Assets\SplashScreen.scale-400.png
 Assets\Square150x150Logo.scale-100.png
@@ -32,6 +34,8 @@ Assets\Square44x44Logo.targetsize-32_altform-lightunplated.png
 Assets\Square44x44Logo.targetsize-48.png
 Assets\Square44x44Logo.targetsize-48_altform-lightunplated.png
 Assets\StoreLogo.scale-100.png
+Assets\StoreLogo.scale-125.png
+Assets\StoreLogo.scale-150.png
 Assets\StoreLogo.scale-200.png
 Assets\StoreLogo.scale-400.png
 Assets\Wide310x150Logo.scale-100.png

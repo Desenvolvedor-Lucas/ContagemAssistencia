@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4C830B4DEB23C9AD52A8295F2AE5B412C07F3925B45BEA1EF99CBEE9BFD12F4A</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>9E9FCAB574CFE06EC15146FB6C1E15B94B945997039B24A27C2C1C56E7DF430C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>57134520-e48b-4590-8eca-0a085b13cb24_1.0.0.0_x86__wwj1k4n9ndbmp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>57134520-e48b-4590-8eca-0a085b13cb24_wwj1k4n9ndbmp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>57134520-e48b-4590-8eca-0a085b13cb24</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:41:03.866</Modified>
+      <Modified>2021-08-19T21:16:08.334</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\bin\x86\Debug\ContagemAssistencia.UWP.exe">
       <PackagePath>entrypoint\ContagemAssistencia.UWP.exe</PackagePath>
-      <Modified>2021-05-31T20:40:58.480</Modified>
+      <Modified>2021-08-19T21:16:05.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marin\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,29 +46,33 @@
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T04:58:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft\Xamarin\NuGet\xamarin.essentials\1.6.1\lib\uap10.0.16299\Xamarin.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\marin\.nuget\packages\xamarin.essentials\1.7.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
-      <Modified>2021-01-25T22:38:56.000</Modified>
+      <Modified>2021-07-13T15:07:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft\Xamarin\NuGet\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\marin\.nuget\packages\xamarin.forms\5.0.0.2083\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2021-02-12T16:40:48.000</Modified>
+      <Modified>2021-07-12T12:08:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft\Xamarin\NuGet\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\marin\.nuget\packages\xamarin.forms\5.0.0.2083\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2021-02-12T16:39:20.000</Modified>
+      <Modified>2021-07-12T12:08:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft\Xamarin\NuGet\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\marin\.nuget\packages\xamarin.forms\5.0.0.2083\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2021-02-12T16:39:20.000</Modified>
+      <Modified>2021-07-12T12:08:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft\Xamarin\NuGet\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\marin\.nuget\packages\xamarin.forms\5.0.0.2083\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2021-02-12T16:39:22.000</Modified>
+      <Modified>2021-07-12T12:08:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia\bin\Debug\netstandard2.0\ContagemAssistencia.dll">
       <PackagePath>ContagemAssistencia.dll</PackagePath>
-      <Modified>2021-05-31T19:46:59.230</Modified>
+      <Modified>2021-08-13T20:34:04.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia\bin\Debug\netstandard2.0\pt\ContagemAssistencia.resources.dll">
+      <PackagePath>pt\ContagemAssistencia.resources.dll</PackagePath>
+      <Modified>2021-08-13T20:34:05.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marin\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -78,9 +82,9 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T07:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft\Xamarin\NuGet\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\marin\.nuget\packages\xamarin.forms\5.0.0.2083\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2021-02-12T07:08:38.000</Modified>
+      <Modified>2021-07-12T12:03:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -115,17 +119,27 @@
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-21T19:01:38.225</Modified>
+      <Modified>2021-08-19T20:00:04.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-08-19T19:59:27.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-08-19T19:58:39.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-21T19:01:38.228</Modified>
+      <Modified>2021-08-19T19:56:11.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-21T19:01:38.236</Modified>
+      <Modified>2021-08-19T19:54:15.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
@@ -145,117 +159,127 @@
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:36:32.367</Modified>
+      <Modified>2021-08-13T20:10:42.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:35:38.781</Modified>
+      <Modified>2021-08-13T20:10:16.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:26:22.637</Modified>
+      <Modified>2021-08-13T19:54:30.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:31:58.983</Modified>
+      <Modified>2021-08-13T20:09:45.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:29:59.729</Modified>
+      <Modified>2021-08-13T20:05:52.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:21:52.469</Modified>
+      <Modified>2021-08-13T20:09:08.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:28:24.617</Modified>
+      <Modified>2021-08-13T20:07:08.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:27:36.468</Modified>
+      <Modified>2021-08-13T20:08:14.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:21:10.177</Modified>
+      <Modified>2021-08-13T19:55:49.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:20:05.624</Modified>
+      <Modified>2021-08-13T19:55:06.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:36:32.367</Modified>
+      <Modified>2021-08-13T20:10:42.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-16_altform-lightunplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-lightunplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:36:32.367</Modified>
+      <Modified>2021-08-13T20:10:42.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:35:38.781</Modified>
+      <Modified>2021-08-13T20:10:16.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-24_altform-lightunplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-lightunplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:35:38.781</Modified>
+      <Modified>2021-08-13T20:10:16.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:26:22.637</Modified>
+      <Modified>2021-08-13T19:54:30.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-256_altform-lightunplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-lightunplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:26:22.637</Modified>
+      <Modified>2021-08-13T19:54:30.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:31:58.983</Modified>
+      <Modified>2021-08-13T20:09:45.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-32_altform-lightunplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-lightunplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:31:58.983</Modified>
+      <Modified>2021-08-13T20:09:45.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:29:59.729</Modified>
+      <Modified>2021-08-13T20:05:52.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Square44x44Logo.targetsize-48_altform-lightunplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-lightunplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T20:29:59.729</Modified>
+      <Modified>2021-08-13T20:05:52.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-21T19:01:38.529</Modified>
+      <Modified>2021-08-19T20:07:40.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-08-19T20:09:07.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-08-19T20:08:34.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-21T19:01:38.532</Modified>
+      <Modified>2021-08-19T20:06:57.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-21T19:01:38.535</Modified>
+      <Modified>2021-08-19T20:06:06.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
@@ -282,11 +306,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-31T20:40:58.309</Modified>
+      <Modified>2021-08-19T20:11:29.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-31T20:40:58.309</Modified>
+      <Modified>2021-08-19T20:11:29.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -302,11 +326,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-31T20:40:59.566</Modified>
+      <Modified>2021-08-19T21:16:06.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\bin\x86\Debug\Core\ContagemAssistencia.UWP.exe">
       <PackagePath>ContagemAssistencia.UWP.exe</PackagePath>
-      <Modified>2021-05-31T20:41:03.847</Modified>
+      <Modified>2021-08-19T21:16:08.321</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

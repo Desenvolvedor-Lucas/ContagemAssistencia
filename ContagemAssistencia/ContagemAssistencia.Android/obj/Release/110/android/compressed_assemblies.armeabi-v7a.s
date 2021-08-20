@@ -28,7 +28,7 @@
 .L.compressed_assembly_descriptors:
 	/* 0: ContagemAssistencia.Android.dll */
 	/* uncompressed_file_size */
-	.long	302592
+	.long	321536
 	/* loaded */
 	.byte	0
 	/* data */
@@ -37,7 +37,7 @@
 
 	/* 1: ContagemAssistencia.dll */
 	/* uncompressed_file_size */
-	.long	37888
+	.long	39424
 	/* loaded */
 	.byte	0
 	/* data */
@@ -46,7 +46,7 @@
 
 	/* 2: FormsViewGroup.dll */
 	/* uncompressed_file_size */
-	.long	15360
+	.long	15872
 	/* loaded */
 	.byte	0
 	/* data */
@@ -64,7 +64,7 @@
 
 	/* 4: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.long	2117120
+	.long	2118656
 	/* loaded */
 	.byte	0
 	/* data */
@@ -154,7 +154,7 @@
 
 	/* 14: Xamarin.AndroidX.Activity.dll */
 	/* uncompressed_file_size */
-	.long	17408
+	.long	52224
 	/* loaded */
 	.byte	0
 	/* data */
@@ -199,7 +199,7 @@
 
 	/* 19: Xamarin.AndroidX.Core.dll */
 	/* uncompressed_file_size */
-	.long	521728
+	.long	531968
 	/* loaded */
 	.byte	0
 	/* data */
@@ -226,7 +226,7 @@
 
 	/* 22: Xamarin.AndroidX.Fragment.dll */
 	/* uncompressed_file_size */
-	.long	158208
+	.long	174080
 	/* loaded */
 	.byte	0
 	/* data */
@@ -325,7 +325,7 @@
 
 	/* 33: Xamarin.Forms.Core.dll */
 	/* uncompressed_file_size */
-	.long	1204224
+	.long	1207296
 	/* loaded */
 	.byte	0
 	/* data */
@@ -334,7 +334,7 @@
 
 	/* 34: Xamarin.Forms.Platform.Android.dll */
 	/* uncompressed_file_size */
-	.long	858112
+	.long	863232
 	/* loaded */
 	.byte	0
 	/* data */
@@ -343,7 +343,7 @@
 
 	/* 35: Xamarin.Forms.Platform.dll */
 	/* uncompressed_file_size */
-	.long	178176
+	.long	191368
 	/* loaded */
 	.byte	0
 	/* data */
@@ -379,7 +379,7 @@
 
 	/* 39: mscorlib.dll */
 	/* uncompressed_file_size */
-	.long	2054144
+	.long	2054656
 	/* loaded */
 	.byte	0
 	/* data */

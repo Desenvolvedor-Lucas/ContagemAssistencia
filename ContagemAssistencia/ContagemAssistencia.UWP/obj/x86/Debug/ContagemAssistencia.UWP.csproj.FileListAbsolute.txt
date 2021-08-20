@@ -61,3 +61,5 @@ E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssi
 E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160787180000000.json
 E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424923200000000.json
 E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\obj\x86\Debug\ContagemAssistencia.UWP.csproj.AssemblyReference.cache
+E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\bin\x86\Debug\pt\ContagemAssistencia.resources.dll
+E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.UWP\obj\x86\Debug\ContagemAssistencia\pt\ContagemAssistencia.ABC_Translate.AppResources.resw

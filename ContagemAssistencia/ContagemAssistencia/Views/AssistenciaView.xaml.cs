@@ -36,8 +36,11 @@ namespace ContagemAssistencia.Views
         {
             if (ViewModel.ListaAssistencia[e.ItemIndex].NomeNumero != "")
             {
-                bool TevoRemove = await DisplayAlert($"{ViewModel.ListaAssistenciaTexto[e.ItemIndex]}", $"{ABC_Translate.AppResources.AlertDeleteMessage}",
-                    $"{ABC_Translate.AppResources.AlertDeleteAnswerTrue}", $"{ABC_Translate.AppResources.AlertDeleteAnswerFalse}");
+                bool TevoRemove = await DisplayAlert($"{ViewModel.ListaAssistenciaTexto[e.ItemIndex]}", 
+                    $"{ABC_Translate.AppResources.AlertDeleteMessage}",
+                    $"{ABC_Translate.AppResources.AlertDeleteAnswerTrue}", 
+                    $"{ABC_Translate.AppResources.AlertDeleteAnswerFalse}");
+
                 if (TevoRemove)
                 {
                     ViewModel.ListaAssistencia.RemoveAt(e.ItemIndex);
@@ -48,8 +51,11 @@ namespace ContagemAssistencia.Views
             }
             else
             {
-                bool TevoRemover = await DisplayAlert($"{ABC_Translate.AppResources.AlertTitleAttentionDelete}", $"{ABC_Translate.AppResources.AlertAttentionDeleteMessage}", 
-                    $"{ABC_Translate.AppResources.AlertAttentionDeleteAnswerTrue}", $"{ABC_Translate.AppResources.AlerAttentiontDeleteAnswerFalse}");
+                bool TevoRemover = await DisplayAlert($"{ABC_Translate.AppResources.AlertTitleAttentionDelete}", 
+                    $"{ABC_Translate.AppResources.AlertAttentionDeleteMessage}", 
+                    $"{ABC_Translate.AppResources.AlertAttentionDeleteAnswerTrue}", 
+                    $"{ABC_Translate.AppResources.AlerAttentiontDeleteAnswerFalse}");
+
                 if (TevoRemover)
                 {
                     await Navigation.PushAsync(new AdicionarView(ViewModel));

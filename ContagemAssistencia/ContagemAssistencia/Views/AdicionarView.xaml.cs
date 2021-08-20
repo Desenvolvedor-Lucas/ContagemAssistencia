@@ -44,7 +44,8 @@ namespace ContagemAssistencia.Views
             MessagingCenter.Subscribe<AdicionarViewModel>(this, "Atencao", 
                 (msg) =>
                 {
-                    DisplayAlert($"{ABC_Translate.AppResources.AlertTitleAttentionNM}",$"{ABC_Translate.AppResources.AlertAttentionNMMenssage}",
+                    DisplayAlert($"{ABC_Translate.AppResources.AlertTitleAttentionNM}",
+                        $"{ABC_Translate.AppResources.AlertAttentionNMMenssage}",
                         $"{ABC_Translate.AppResources.AlertAttentionNMAnswer}");
                 });
 

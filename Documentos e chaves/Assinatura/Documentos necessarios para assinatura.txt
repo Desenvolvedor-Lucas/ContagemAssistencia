@@ -1,7 +1,0 @@
-Alias: ContagemAssistencia
-
-Password: illop123
-
-client ID: 243608304103-5vnk4ase261mcr4skk7btd013tf8h4se.apps.googleusercontent.com
-
-chave secreta: ApHPvWfEdLbsu6KtPkKk3LbK

@@ -26,6 +26,7 @@ namespace ContagemAssistencia.Views
             ViewModel = new VisualizarViewModel(total, lista);
 
             InitializeComponent();
+
             BindingContext = ViewModel;
         }
 

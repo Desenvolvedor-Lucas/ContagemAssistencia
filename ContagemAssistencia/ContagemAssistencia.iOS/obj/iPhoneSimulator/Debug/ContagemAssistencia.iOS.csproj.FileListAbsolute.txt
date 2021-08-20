@@ -56,3 +56,4 @@ E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssi
 E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.iOS\obj\iPhoneSimulator\Debug\ContagemAssistencia.iOS.csproj.CopyComplete
 E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.iOS\obj\iPhoneSimulator\Debug\ContagemAssistencia.iOS.exe
 E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.iOS\obj\iPhoneSimulator\Debug\ContagemAssistencia.iOS.pdb
+E:\Dev Lucas\Mobile\Xamarin\ContagemAssistencia\ContagemAssistencia\ContagemAssistencia.iOS\bin\iPhoneSimulator\Debug\pt\ContagemAssistencia.resources.dll

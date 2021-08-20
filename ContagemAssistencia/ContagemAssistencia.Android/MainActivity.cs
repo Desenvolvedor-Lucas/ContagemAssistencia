@@ -7,7 +7,11 @@ using Android.OS;
 
 namespace ContagemAssistencia.Droid 
 {
-    [Activity(Label = "Attendance Report", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+    [Activity(Label = "Attendance Report", Icon = "@drawable/icon", Theme = "@style/MainTheme", 
+        MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize |
+        ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize |
+        ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
+
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
