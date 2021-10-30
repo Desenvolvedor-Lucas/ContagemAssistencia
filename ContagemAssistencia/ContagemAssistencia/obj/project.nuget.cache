@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "8WtCPqA/tX3cRod2I9bFM8/SrlErcepAKJmUp0X0T+cKGgmNVEaCzeDvkYBuQe0N2HrlKaGwrYt7NG6YpKutiQ==",
+  "dgSpecHash": "iAN6kZ6PZUj4+TgbGRn50O67vBDN17AMsHyD36VVpGv6ATCZf1ZiZZF4NAeAYfJ8FXad6RQNtLEfT97cCxoYZw==",
   "success": true,
   "projectFilePath": "E:\\Dev Lucas\\Mobile\\Xamarin\\ContagemAssistencia\\ContagemAssistencia\\ContagemAssistencia\\ContagemAssistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\marin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\marin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\marin\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
     "C:\\Users\\marin\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\marin\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+    "C:\\Users\\marin\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

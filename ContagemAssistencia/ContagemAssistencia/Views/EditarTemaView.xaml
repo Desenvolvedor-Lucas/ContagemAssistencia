@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Translate="clr-namespace:ContagemAssistencia.ABC_Translate"
+             x:Class="ContagemAssistencia.Views.EditarTemaView"
+             Title="{x:Static Translate:AppResources.EditTheme}">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Style="{StaticResource PrimaryBackgoundStackLayout}">
+            
+                <Frame Style="{StaticResource ThemeFrameLayout}">
+                    <StackLayout Style="{StaticResource BackgoundStackLayout}">
+
+                        <Label Text="{x:Static Translate:AppResources.Default_theme}" 
+                               Style="{StaticResource ContrastLabelStyle}"/>
+                    
+                        <Button Text="{x:Static Translate:AppResources.Choose_theme}"
+                                Command="{Binding TemaPadrao}"
+                                Style="{StaticResource ThemeButtonStyle}"/>
+                            
+
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource ThemeFrameLayout}">
+                    <StackLayout Style="{StaticResource BackgoundStackLayout}">
+
+                        <Label Text="{x:Static Translate:AppResources.Lemon_theme}"
+                               Style="{StaticResource ContrastLabelStyle}"/>
+
+                        <Button Text="{x:Static Translate:AppResources.Choose_theme}"
+                                Command="{Binding TemaClaro}"
+                                Style="{StaticResource ThemeButtonStyle}"/>
+
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource ThemeFrameLayout}">
+                    <StackLayout Style="{StaticResource BackgoundStackLayout}">
+
+                        <Label Text="{x:Static Translate:AppResources.Dark_theme}"
+                               Style="{StaticResource ContrastLabelStyle}"/>
+
+                        <Button Text="{x:Static Translate:AppResources.Choose_theme}"
+                                Command="{Binding TemaEscuro}"
+                                Style="{StaticResource ThemeButtonStyle}"/>
+
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource ThemeFrameLayout}">
+                    <StackLayout Style="{StaticResource BackgoundStackLayout}">
+
+                        <Label Text="{x:Static Translate:AppResources.Aquatic_theme}"
+                               Style="{StaticResource ContrastLabelStyle}"/>
+
+                        <Button Text="{x:Static Translate:AppResources.Choose_theme}"
+                                Command="{Binding TemaAltoContrasteClaro}"
+                                Style="{StaticResource ThemeButtonStyle}"/>
+
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource ThemeFrameLayout}">
+                    <StackLayout Style="{StaticResource BackgoundStackLayout}">
+
+                        <Label Text="{x:Static Translate:AppResources.Fire_theme}"
+                               Style="{StaticResource ContrastLabelStyle}"/>
+
+                        <Button Text="{x:Static Translate:AppResources.Choose_theme}"
+                                Command="{Binding TemaAltoContrasteEscuro}"
+                                Style="{StaticResource ThemeButtonStyle}"/>
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

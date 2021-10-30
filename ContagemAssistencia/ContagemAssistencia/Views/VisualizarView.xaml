@@ -2,28 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:Translate="clr-namespace:ContagemAssistencia.ABC_Translate"
-             xmlns:MyColor="clr-namespace:ContagemAssistencia.ColorsTheme"
              x:Class="ContagemAssistencia.Views.VisualizarView"
              Title="{x:Static Translate:AppResources.TitleVisualize}"
-             BackgroundColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}">
+             Style="{StaticResource BackgoundContent}">
     
     <StackLayout Margin="25">
         
         <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
 
             <Label Text="{Binding VisualizaData}" 
-                   TextColor="{x:Static MyColor:MinhasCores.LetraCorComum}"
-                   FontSize="Medium" HorizontalOptions="Center"/>
+                   Style="{StaticResource SubLabelStyle}"/>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
 
                 <Label Text="{x:Static Translate:AppResources.Total}" 
-                       TextColor="{x:Static MyColor:MinhasCores.LetraCorDestaque}"
-                       FontSize="Large"  FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                       Style="{StaticResource ContrastLabelStyle}"/>
 
                 <Label Text="{Binding VisualizaTotal.Text}" 
-                       TextColor="{x:Static MyColor:MinhasCores.LetraCorDestaque}"
-                       FontSize="Large"  FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                       Style="{StaticResource ContrastLabelStyle}"/>
 
             </StackLayout>
             
@@ -31,20 +27,16 @@
 
         <StackLayout VerticalOptions="FillAndExpand" >
 
-            <Frame BorderColor="{x:Static MyColor:MinhasCores.CorTema_A}" 
-                   BackgroundColor="{x:Static MyColor:MinhasCores.FundoCorTema_B}"
-                   CornerRadius="10" IsVisible="true" HasShadow="True" >
+            <Frame Style="{StaticResource MainFrameLayout}" >
 
                 <ListView ItemsSource="{Binding VisualizaListaAssistencia}" 
-                          SeparatorColor="{x:Static MyColor:MinhasCores.CorTema_A}"
-                          RowHeight="22" SeparatorVisibility="Default" SelectionMode="None">
+                          Style="{StaticResource ViewListView}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
 
                                 <Label Text="{Binding NomeNumero}" 
-                                       TextColor="{x:Static MyColor:MinhasCores.LetraCorComum}" 
-                                       FontSize="Subtitle" FontAttributes="None"/>
+                                       Style="{StaticResource ItemListLabelStyle}"/>
 
                             </ViewCell>
                         </DataTemplate>
@@ -56,10 +48,8 @@
         </StackLayout>
 
         <Button Text="{x:Static Translate:AppResources.BtnShareAssistance}" 
-                TextColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}"
-                BackgroundColor="{x:Static MyColor:MinhasCores.CorTema_B}"
                 Command="{Binding CompartilharCommand}"
-                FontAttributes="Italic" FontSize="20" HorizontalOptions="Center" CornerRadius="10"/>
+                Style="{StaticResource ButtonStyle}"/>
 
     </StackLayout>
     

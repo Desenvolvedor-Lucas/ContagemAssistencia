@@ -35,6 +35,7 @@ namespace ContagemAssistencia.Droid
         // Simula o trabalho de fundo que acontece atrás da tela de respingo
         async void SimulateStartup()  //Simula inicialização
         {
+           
             await Task.Delay(0); //1s = 1000 Simule um pouco do trabalho de inicialização.
             StartActivity(new Intent(Application.Context, typeof(MainActivity)));
         }

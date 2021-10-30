@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <resources>
+
+	<!--Transperent(No Color)-->
+	<color name="ListViewSelectedItemColor">#00000000</color>
+	<color name="ListViewHighlightedItemColor">#00000000</color>
 	
 	<style name="Theme.Base" parent="Theme.AppCompat.Light">
 	</style>
@@ -18,13 +22,21 @@
 		
 	</style>
 
+
   <style name="MainTheme" parent="MainTheme.Base">
 	  
-    <!-- Set theme colors from https://aka.ms/material-colors -->
+     <!--Set theme colors from https://aka.ms/material-colors -->
 	  
-	<item name="colorPrimary">#000569</item>
-    <item name="colorPrimaryDark">#262C47</item>
+	<item name="colorPrimary">#465C5B</item>
+    <item name="colorPrimaryDark">#000000</item>
     <item name="colorAccent">#5E0D00</item>
+
+	  <!--ListView color styling-->
+	<item name="@android:colorPressedHighlight">@color/ListViewSelectedItemColor</item>
+	<item name="@android:colorLongPressedHighlight">@color/ListViewHighlightedItemColor</item>
+	<item name="@android:colorFocusedHighlight">@color/ListViewSelectedItemColor</item>
+	<item name="@android:colorActivatedHighlight">@color/ListViewSelectedItemColor</item>
+	<item name="@android:activatedBackgroundIndicator">@color/ListViewSelectedItemColor</item>
     
   </style>
 </resources>

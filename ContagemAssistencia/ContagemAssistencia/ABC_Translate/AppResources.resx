@@ -147,6 +147,9 @@
   <data name="AlertTitleAttentionNM" xml:space="preserve">
     <value>Attention</value>
   </data>
+  <data name="Aquatic theme" xml:space="preserve">
+    <value>Aquatic theme</value>
+  </data>
   <data name="Assists" xml:space="preserve">
     <value>ATTENDANCE</value>
   </data>
@@ -162,8 +165,26 @@
   <data name="BtnVisualize" xml:space="preserve">
     <value>VISUALIZE</value>
   </data>
+  <data name="Choose theme" xml:space="preserve">
+    <value>Choose theme</value>
+  </data>
+  <data name="Dark theme" xml:space="preserve">
+    <value>Dark theme</value>
+  </data>
   <data name="Date" xml:space="preserve">
     <value>Date</value>
+  </data>
+  <data name="Default theme" xml:space="preserve">
+    <value>Default theme</value>
+  </data>
+  <data name="EditTheme" xml:space="preserve">
+    <value>Edit Theme</value>
+  </data>
+  <data name="Fire theme" xml:space="preserve">
+    <value>Fire theme</value>
+  </data>
+  <data name="Lemon theme" xml:space="preserve">
+    <value>Lemon theme</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Name</value>

@@ -4,5 +4,147 @@
              x:Class="ContagemAssistencia.App">
     <Application.Resources>
 
+        <ResourceDictionary>
+
+        <!--NavigationPage-->
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{DynamicResource NavigationBarColor}"/>
+                <Setter Property="BarTextColor" Value="{DynamicResource PrimaryTintColor}"/>
+            </Style>
+
+        <!--Button-->
+            <!--main-->
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryDarkColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Italic"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="CornerRadius" Value="10"/>
+            </Style>
+            <!--Theme-->
+            <Style x:Key="ThemeButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryDarkColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="FontAttributes" Value="Italic"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="CornerRadius" Value="10"/>
+            </Style>
+            
+        <!--Background-->
+            <!--Content-->
+            <Style x:Key="BackgoundContent" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
+            </Style>
+            <!--Main-->
+            <Style x:Key="BackgoundStackLayout" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
+            </Style>
+            <!--Theme-->
+            <Style x:Key="PrimaryBackgoundStackLayout" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryPageBackgroundColor}"/>
+                <Setter Property="Padding" Value="10,0"/>
+            </Style>
+            
+        <!--ListView-->
+            <!--Main-->
+            <Style x:Key="MainListView" TargetType="ListView">
+                <Setter Property="SeparatorColor" Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="SeparatorVisibility" Value="Default"/>
+                <Setter Property="RowHeight" Value="22"/>
+                <Setter Property="SelectionMode" Value="Single"/>
+            </Style>
+            <!--View-->
+            <Style x:Key="ViewListView" TargetType="ListView">
+                <Setter Property="SeparatorColor" Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="SeparatorVisibility" Value="Default"/>
+                <Setter Property="RowHeight" Value="22"/>
+                <Setter Property="SelectionMode" Value="None"/>
+            </Style>
+            
+        <!--Frames-->
+            <!--Main-->
+            <!--CornerRadius="10" IsVisible="true" HasShadow="True"-->
+            <Style x:Key="MainFrameLayout" TargetType="Frame">
+                <Setter Property="BorderColor" Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryPageBackgroundColor}"/>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="IsVisible" Value="true"/>
+                <Setter Property="HasShadow" Value="True"/>
+            </Style>
+            <!--AddInvisible-->
+            <Style x:Key="AddInvisibleFrameLayout" TargetType="Frame">
+                <Setter Property="BorderColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="IsVisible" Value="true"/>
+                <Setter Property="HasShadow" Value="False"/>
+                <Setter Property="Margin" Value="20"/>
+            </Style>
+            <!--Add-->
+            <Style x:Key="AddFrameLayout" TargetType="Frame">
+                <Setter Property="BorderColor" Value="{DynamicResource PrimaryDarkColor}"/>
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryPageBackgroundColor}"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="IsVisible" Value="true"/>
+                <Setter Property="HasShadow" Value="True"/>
+            </Style>
+            <!--Theme-->
+            <Style x:Key="ThemeFrameLayout" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="Margin" Value="0,10"/>
+            </Style>
+            
+        <!--Entry-->
+            <Style x:Key="EntryAddStyle" TargetType="Entry">
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+
+        <!--Label-->
+            <!--Main-->
+            <Style x:Key="MainLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                </Style>
+            <!--Sub-->
+            <Style x:Key="SubLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource SecondaryTextColor}"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <!--ContrastMain-->
+            <Style x:Key="ContrastLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource SubTextColor}"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+            </Style>
+            <!--ContrastAdd-->
+            <Style x:Key="ContrastAddLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource SubTextColor}"/>
+                <Setter Property="FontSize" Value="Title"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="VerticalOptions" Value="EndAndExpand"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <!--ItemList-->
+            <Style x:Key="ItemListLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource SecondaryTextColor}"/>
+                <Setter Property="FontSize" Value="Subtitle"/>
+                <Setter Property="FontAttributes" Value="None"/>
+            </Style>
+
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>

@@ -2,43 +2,44 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:Translate="clr-namespace:ContagemAssistencia.ABC_Translate"
-             xmlns:MyColor="clr-namespace:ContagemAssistencia.ColorsTheme"
              x:Class="ContagemAssistencia.Views.AssistenciaView"
              Title="{x:Static Translate:AppResources.TitleAssists}"
-             BackgroundColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}">
+             Style="{StaticResource BackgoundContent}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="{x:Static Translate:AppResources.EditTheme}"
+                     Order="Secondary"
+                     Priority="0"
+                     Command="{Binding NavegarEditarTemaCommand}"/>
+    </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-
+        
         <StackLayout Margin="25">
             
             <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
 
                 <Label Text="{Binding Data}" 
-                       TextColor="{x:Static MyColor:MinhasCores.LetraCorComum}"
-                       FontSize="Medium" HorizontalOptions="Center"/>
+                       Style="{StaticResource SubLabelStyle}"/>
 
                 <Label Text="{x:Static Translate:AppResources.Assists}" 
-                       TextColor="{x:Static MyColor:MinhasCores.CorTema_A}" 
-                       FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+                       Style="{StaticResource MainLabelStyle}"/>
 
             </StackLayout>
 
             <StackLayout VerticalOptions="FillAndExpand">
 
-                <Frame BorderColor="{x:Static MyColor:MinhasCores.CorTema_A}" 
-                       BackgroundColor="{x:Static MyColor:MinhasCores.FundoCorTema_B}"
-                       CornerRadius="10" IsVisible="true" HasShadow="True">
+                <Frame Style="{StaticResource MainFrameLayout}">
 
-                    <ListView ItemsSource="{Binding ListaAssistencia}"  
-                              SeparatorColor="{x:Static MyColor:MinhasCores.CorTema_A}" 
-                              ItemTapped="ListView_ItemTapped" SeparatorVisibility="Default" RowHeight="22">
+                    <ListView ItemsSource="{Binding ListaAssistencia}" 
+                              ItemTapped="ListView_ItemTapped"
+                              Style="{StaticResource MainListView}">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
 
                                     <Label Text="{Binding NomeNumero}" 
-                                           TextColor="{x:Static MyColor:MinhasCores.LetraCorComum}"
-                                           FontSize="Subtitle" FontAttributes="None"/>
+                                           Style="{StaticResource ItemListLabelStyle}"/>
 
                                 </ViewCell>
                             </DataTemplate>
@@ -52,29 +53,23 @@
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
 
                 <Label Text="{x:Static Translate:AppResources.Total}" 
-                       TextColor="{x:Static MyColor:MinhasCores.LetraCorDestaque}" 
-                       FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                       Style="{StaticResource ContrastLabelStyle}"/>
 
                 <Label Text="{ Binding Total.Text}" 
-                       TextColor="{x:Static MyColor:MinhasCores.LetraCorDestaque}" 
-                       FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                       Style="{StaticResource ContrastLabelStyle}"/>
 
             </StackLayout>
 
             <StackLayout VerticalOptions="End" HorizontalOptions="Center">
 
                 <Button Text="{x:Static Translate:AppResources.BtnNewAssistance}"  
-                        TextColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}" 
-                        BackgroundColor="{x:Static MyColor:MinhasCores.CorTema_B}" 
-                        Command="{Binding NavegarAdicionarCommand}"
-                        FontAttributes="Italic" FontSize="20" HorizontalOptions="Center" CornerRadius="10"/>
+                        Command="{Binding NavegarAdicionarCommand}" 
+                        Style="{StaticResource ButtonStyle}"/>
 
 
                 <Button Text="{x:Static Translate:AppResources.BtnVisualize}" 
-                        TextColor="{x:Static MyColor:MinhasCores.FundoCorTema_A}" 
-                        BackgroundColor="{x:Static MyColor:MinhasCores.CorTema_B}"
                         Command="{Binding NavegarVisualizarCommand}"
-                        FontAttributes="Italic" FontSize="20" HorizontalOptions="Center" CornerRadius="10"/>
+                        Style="{StaticResource ButtonStyle}"/>
 
             </StackLayout>
             

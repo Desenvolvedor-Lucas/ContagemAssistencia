@@ -9,9 +9,11 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using ContagemAssistencia.ViewModels;
 using System.Windows.Input;
+using Xamarin.Forms.Xaml;
 
 namespace ContagemAssistencia.Views
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AssistenciaView : ContentPage
     {
         //Propriedades
@@ -68,37 +70,5 @@ namespace ContagemAssistencia.Views
                 }
             }
         }
-
-
-        //Onappearing() para receber e subescrever a msg enviada da ViewModel
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-
-            MessagingCenter.Subscribe<ICommand>(this, "NavegarAdicionar", 
-                async (msg) =>
-                {
-                    await Navigation.PushAsync(new AdicionarView(ViewModel));
-                });
-
-            MessagingCenter.Subscribe<ICommand>(this, "NavegarVisualizar", 
-                async (msg) =>
-                {
-                    await Navigation.PushAsync(new VisualizarView(ViewModel.Total, ViewModel.ListaAssistencia));
-                });
-
-        }
-
-
-        //OnDisappearing() para cancelar a msg recebida depois de utilizada 
-        protected override void OnDisappearing()
-        {
-            base.OnDisappearing();
-
-            MessagingCenter.Unsubscribe<ICommand>(this, "NavegarAdicionar");
-            MessagingCenter.Unsubscribe<ICommand>(this, "NavegarVisualizar");
-
-        }
-
     }
 }

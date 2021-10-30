@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="ContagemAssistencia.ThemeResources.PadraoTheme">
+
+    <!--Green-->
+    <Color x:Key="PrimaryColor">#000569</Color>
+    <!--Dark Green-->
+    <Color x:Key="PrimaryDarkColor">#262C47</Color>
+    <!--White-->
+    <Color x:Key="PrimaryTintColor">#FFFFFF</Color>
+    
+    
+    <!--LightGray-->
+    <Color x:Key="PageBackgroundColor">#EDEDF7</Color>
+    <!--White-->
+    <Color x:Key="PrimaryPageBackgroundColor">#f8f8ff</Color>
+    
+    
+    <!--Green-->
+    <Color x:Key="NavigationBarColor">#000569</Color>
+    
+    
+    <!--Dark Grey-->
+    <Color x:Key="PrimaryTextColor">#000569</Color>
+    <!--Mid Grey-->
+    <Color x:Key="SecondaryTextColor">#2f4f4f</Color>
+    <!--Mid-Light Grey-->
+    <Color x:Key="SubTextColor">#5E0D00</Color>
+    
+</ResourceDictionary>

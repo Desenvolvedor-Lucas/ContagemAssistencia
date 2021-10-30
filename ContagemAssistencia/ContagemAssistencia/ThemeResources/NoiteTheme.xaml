@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="ContagemAssistencia.ThemeResources.NoiteTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    
+    <!--  Pink  -->
+    <Color x:Key="PrimaryColor">#808080</Color>
+    <!--  Dark Pink  -->
+    <Color x:Key="PrimaryDarkColor">#5E5E5E</Color>
+    <!--  White  -->
+    <Color x:Key="PrimaryTintColor">#FFFFFF</Color>
+    
+    
+
+    <!--  Dark Grey  -->
+    <Color x:Key="PageBackgroundColor">#141414</Color>
+    <!--    Shadow    -->
+    <Color x:Key="PrimaryPageBackgroundColor">#353236</Color>
+    
+    
+
+    <!--  Pink  -->
+    <Color x:Key="NavigationBarColor">#808080</Color>
+    
+    
+
+    <!--  White  -->
+    <Color x:Key="PrimaryTextColor">#ffffff</Color>
+
+    <!--  Smoke White  -->
+    <Color x:Key="SecondaryTextColor">#bdbdbd</Color>
+
+    <!--  Dark Smoke White  -->
+    <Color x:Key="SubTextColor">#a5a5a5</Color>
+    
+</ResourceDictionary>

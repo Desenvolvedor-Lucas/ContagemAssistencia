@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="ContagemAssistencia.ThemeResources.FogoTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    
+    
+    <!--  Orange  -->
+    <Color x:Key="PrimaryColor">#f44100</Color>
+    <!--  Dark Orange  -->
+    <Color x:Key="PrimaryDarkColor">#c63500</Color>
+    <!--  White  -->
+    <Color x:Key="PrimaryTintColor">#FFFFFF</Color>
+
+    
+    <!--  Dark Grey  -->
+    <Color x:Key="PageBackgroundColor">#141414</Color>
+    <!--iron-->
+    <Color x:Key="PrimaryPageBackgroundColor">#2E292A</Color>
+    
+
+    <!--  Orange  -->
+    <Color x:Key="NavigationBarColor">#f44100</Color>
+    
+    
+
+    <!--  White  -->
+    <Color x:Key="PrimaryTextColor">#ffffff</Color>
+
+    <!--  Smoke White  -->
+    <Color x:Key="SecondaryTextColor">#bdbdbd</Color>
+
+    <!--  Dark Smoke White  -->
+    <Color x:Key="SubTextColor">#eead2d</Color>
+    
+</ResourceDictionary>

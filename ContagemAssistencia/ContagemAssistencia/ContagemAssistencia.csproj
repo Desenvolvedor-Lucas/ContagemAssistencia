@@ -11,7 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
 
@@ -20,6 +21,21 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="ThemeResources\AquaticoTheme.xaml.cs">
+      <DependentUpon>AquaticoTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ThemeResources\LimaoTheme.xaml.cs">
+      <DependentUpon>LimaoTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ThemeResources\FogoTheme.xaml.cs">
+      <DependentUpon>FogoTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ThemeResources\PadraoTheme.xaml.cs">
+      <DependentUpon>PadraoTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ThemeResources\NoiteTheme.xaml.cs">
+      <DependentUpon>NoiteTheme.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\AssistenciaView.xaml.cs">
       <DependentUpon>AssistenciaView.xaml</DependentUpon>
@@ -32,6 +48,9 @@
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\AdicionarView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\EditarTemaView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\VisualizarView.xaml">

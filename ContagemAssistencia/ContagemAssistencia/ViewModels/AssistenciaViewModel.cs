@@ -26,6 +26,7 @@ namespace ContagemAssistencia.ViewModels
         //Propriedades de Comandos
         public ICommand NavegarVisualizarCommand { get; set; }
         public ICommand NavegarAdicionarCommand { get; set; }
+        public ICommand NavegarEditarTemaCommand { get; set; }
 
 
         //construdor
@@ -41,16 +42,20 @@ namespace ContagemAssistencia.ViewModels
             for(var i = 0; i < 50; i++)
                 ListaAssistencia.Add(new UsuarioAssistencia { NomeNumero = ""});
 
-            NavegarAdicionarCommand = new Command(() =>
+            NavegarAdicionarCommand = new Command(async() =>
             {
-                MessagingCenter.Send<ICommand>(NavegarAdicionarCommand, "NavegarAdicionar");
+                await App.Current.MainPage.Navigation.PushAsync(new AdicionarView(this));
             });
 
-            NavegarVisualizarCommand = new Command(() => 
+            NavegarVisualizarCommand = new Command(async() => 
             {
-                MessagingCenter.Send<ICommand>(NavegarVisualizarCommand, "NavegarVisualizar");
+                await App.Current.MainPage.Navigation.PushAsync(new VisualizarView(Total, ListaAssistencia));
             });
 
+            NavegarEditarTemaCommand = new Command(async() => 
+            {
+                await App.Current.MainPage.Navigation.PushAsync(new EditarTemaView());
+            });
         }
 
 

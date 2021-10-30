@@ -151,6 +151,15 @@ namespace ContagemAssistencia.ABC_Translate {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Aquatic theme.
+        /// </summary>
+        internal static string Aquatic_theme {
+            get {
+                return ResourceManager.GetString("Aquatic theme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ATTENDANCE.
         /// </summary>
         internal static string Assists {
@@ -196,11 +205,65 @@ namespace ContagemAssistencia.ABC_Translate {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Choose theme.
+        /// </summary>
+        internal static string Choose_theme {
+            get {
+                return ResourceManager.GetString("Choose theme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Dark theme.
+        /// </summary>
+        internal static string Dark_theme {
+            get {
+                return ResourceManager.GetString("Dark theme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Date.
         /// </summary>
         internal static string Date {
             get {
                 return ResourceManager.GetString("Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Default theme.
+        /// </summary>
+        internal static string Default_theme {
+            get {
+                return ResourceManager.GetString("Default theme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Edit Theme.
+        /// </summary>
+        internal static string EditTheme {
+            get {
+                return ResourceManager.GetString("EditTheme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Fire theme.
+        /// </summary>
+        internal static string Fire_theme {
+            get {
+                return ResourceManager.GetString("Fire theme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Lemon theme.
+        /// </summary>
+        internal static string Lemon_theme {
+            get {
+                return ResourceManager.GetString("Lemon theme", resourceCulture);
             }
         }
         
